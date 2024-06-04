@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    padding: 10px 30px;
+}
+
+.navSucursal {
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    padding: 10px 30px;
+    display: flex;
+}
+
+.contenedorImagenSucursales {
+    width: 50%;
+}
+
+.imagenNav {
+    width: 150px;
+}
+
+.contenedorBotones,
+.contenedorBotones ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    width: 50%;
+}
+.contenedorBotones ul {
+    width: 100%;
+}
+
+.contenedorBotones ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.contenedorBotones ul li .links::before {
+    content: "";
+    height: 1px;
+    width: 0;
+    position: absolute;
+    background-color: black;
+    bottom: -5px;
+    transition: .5s;
+}
+
+.contenedorBotones ul li .links:hover:before {
+    width: 100%;
+}
+
+.tituloBienvenida {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.seleccionarSuc {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.containerSucursales {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedorCentrado {
+    width: 50%;
+    min-height: 700px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /* Sombra añadida */
+}
+
+.contenedorSucursal {
+    background-color: white;
+    width: 40%;
+    display: flex;
+    border: 1px solid black;
+    min-height: 200px;
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.contenedorSucursal::before {
+    content: var(--sucursal-content, "Sucursal");
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    transition: .5s;
+    bottom: 0px;
+}
+
+.contenedorSucursal:hover::before {
+    height: 60px;
+}
+
+.contenedorSucursal:hover {
+    background-color: rgb(201, 201, 201);
+}

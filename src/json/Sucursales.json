@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sucursal Plaza Cagancha",
+        "ruta":"plazaCagancha",
+        "direccion": {
+            "calle": "Avenida Sur",
+            "numero": 789,
+            "ciudad": "Ciudad Sur",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "3456-7890"
+            },
+            {
+                "tipo": "fax",
+                "numero": "3456-7891"
+            }
+        ],
+        "gerente": "María López",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Sucursal Tres Cruces",
+        "ruta":"tresCruces",
+        "direccion": {
+            "calle": "Av. Central",
+            "numero": 123,
+            "ciudad": "Ciudad Capital",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "1234-5678"
+            },
+            {
+                "tipo": "fax",
+                "numero": "1234-5679"
+            }
+        ],
+        "gerente": "Ana Gómez",
+        "activo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Sucursal Nuevo Centro",
+        "ruta":"nuevoCentro",
+        "direccion": {
+            "calle": "Calle Norte",
+            "numero": 456,
+            "ciudad": "Ciudad Norte",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "2345-6789"
+            },
+            {
+                "tipo": "fax",
+                "numero": "2345-6790"
+            }
+        ],
+        "gerente": "Carlos Pérez",
+        "activo": false
+    },
+    {
+        "id": 4,
+        "nombre": "Sucursal Montevideo Shopping",
+        "ruta":"montevideoShopping",
+        "direccion": {
+            "calle": "Avenida Sur",
+            "numero": 789,
+            "ciudad": "Ciudad Sur",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "3456-7890"
+            },
+            {
+                "tipo": "fax",
+                "numero": "3456-7891"
+            }
+        ],
+        "gerente": "María López",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Sucursal Punta Carretas Shopping",
+        "ruta":"puntaCarretasShopping",
+        "direccion": {
+            "calle": "Avenida Sur",
+            "numero": 789,
+            "ciudad": "Ciudad Sur",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "3456-7890"
+            },
+            {
+                "tipo": "fax",
+                "numero": "3456-7891"
+            }
+        ],
+        "gerente": "María López",
+        "activo": true
+    },
+    {
+        "id": 6,
+        "nombre": "Sucursal Portones Shopping",
+        "ruta":"portonesShopping",
+        "direccion": {
+            "calle": "Avenida Sur",
+            "numero": 789,
+            "ciudad": "Ciudad Sur",
+            "pais": "País Ejemplo"
+        },
+        "telefonos": [
+            {
+                "tipo": "principal",
+                "numero": "3456-7890"
+            },
+            {
+                "tipo": "fax",
+                "numero": "3456-7891"
+            }
+        ],
+        "gerente": "María López",
+        "activo": true
+    }
+]
