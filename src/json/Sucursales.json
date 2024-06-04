@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "nombre": "Sucursal Plaza Cagancha",
-        "ruta":"plazaCagancha",
+        "nombre": "Plaza Cagancha",
+        "ruta": "plazaCagancha",
         "direccion": {
             "calle": "Avenida Sur",
             "numero": 789,
@@ -20,12 +20,18 @@
             }
         ],
         "gerente": "María López",
-        "activo": true
+        "activo": true,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26176.15665303941!2d-56.2286672256836!3d-34.9059581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81b339652a4d%3A0x6ee6981d1c0eacbc!2sKil%C3%B3metro%20Cero%20Plaza%20Cagancha!5e0!3m2!1ses-419!2suy!4v1717483537956!5m2!1ses-419!2suy",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+        }
     },
     {
         "id": 2,
-        "nombre": "Sucursal Tres Cruces",
-        "ruta":"tresCruces",
+        "nombre": "Tres Cruces",
+        "ruta": "tresCruces",
         "direccion": {
             "calle": "Av. Central",
             "numero": 123,
@@ -43,12 +49,18 @@
             }
         ],
         "gerente": "Ana Gómez",
-        "activo": true
+        "activo": true,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22014.242553996784!2d-56.18102737709537!3d-34.895488015137786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8053cfe6aeab%3A0xc203be2264eb08b7!2sKil%C3%B3metro%20Cero!5e0!3m2!1ses-419!2suy!4v1717483339788!5m2!1ses-419!2suy",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+        }
     },
     {
         "id": 3,
-        "nombre": "Sucursal Nuevo Centro",
-        "ruta":"nuevoCentro",
+        "nombre": "Nuevo Centro",
+        "ruta": "nuevoCentro",
         "direccion": {
             "calle": "Calle Norte",
             "numero": 456,
@@ -66,12 +78,18 @@
             }
         ],
         "gerente": "Carlos Pérez",
-        "activo": false
+        "activo": false,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26187.951461303448!2d-56.20790432568363!3d-34.868941199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ca78c2593d%3A0x510978e4642de1e9!2sKil%C3%B3metro%20Cero!5e0!3m2!1ses-419!2suy!4v1717483598728!5m2!1ses-419!2suy",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+        }
     },
     {
         "id": 4,
-        "nombre": "Sucursal Montevideo Shopping",
-        "ruta":"montevideoShopping",
+        "nombre": "Montevideo Shopping",
+        "ruta": "montevideoShopping",
         "direccion": {
             "calle": "Avenida Sur",
             "numero": 789,
@@ -89,12 +107,18 @@
             }
         ],
         "gerente": "María López",
-        "activo": true
+        "activo": true,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26172.963739026225!2d-56.180320722978145!3d-34.91597286718693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f816360526291%3A0xe342ae769537ce70!2sKil%C3%B3metro%20Cero!5e0!3m2!1ses-419!2suy!4v1717483479451!5m2!1ses-419!2suy",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+        }
     },
     {
         "id": 5,
-        "nombre": "Sucursal Punta Carretas Shopping",
-        "ruta":"puntaCarretasShopping",
+        "nombre": "Punta Carretas Shopping",
+        "ruta": "puntaCarretasShopping",
         "direccion": {
             "calle": "Avenida Sur",
             "numero": 789,
@@ -112,12 +136,18 @@
             }
         ],
         "gerente": "María López",
-        "activo": true
+        "activo": true,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31125.039636568035!2d-56.17990700329889!3d-34.91606533386335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f819adb6e339d%3A0x35b1d35d654686d3!2sKilometro%20Cero!5e0!3m2!1ses-419!2suy!4v1717482880492!5m2!1ses-419!2suy",
+            "allowFullScreen": "",
+            "loading": "lazy",
+            "referrerPolicy": "no-referrer-when-downgrade"
+        }
     },
     {
         "id": 6,
-        "nombre": "Sucursal Portones Shopping",
-        "ruta":"portonesShopping",
+        "nombre": "Portones Shopping",
+        "ruta": "portonesShopping",
         "direccion": {
             "calle": "Avenida Sur",
             "numero": 789,
@@ -135,6 +165,12 @@
             }
         ],
         "gerente": "María López",
-        "activo": true
+        "activo": true,
+        "mapa": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26183.918031793462!2d-56.11928252568364!3d-34.88160359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f875875df82fb%3A0xbed2520fbb1aa21b!2sKil%C3%B3metro%20Cero%20Portones!5e0!3m2!1ses-419!2suy!4v1717483677969!5m2!1ses-419!2suy",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+        }
     }
 ]

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import DataContext from './dataContext/DataContext';
 import { NavSucursales } from './NavSucursales';
+import { Footer } from './Footer';
 
 export const MainSucursal = () => {
     const { sucursalElegida } = useContext(DataContext)
@@ -12,8 +13,9 @@ export const MainSucursal = () => {
     console.log(sucursalElegida)
     return (
         <>
-            {<NavSucursales />}
-            <h1> {sucursalElegida.nombre} </h1>
+            <NavSucursales />
+            <Footer />
         </>
     );
-}
+};
+

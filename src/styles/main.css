@@ -12,13 +12,6 @@
     padding: 10px 30px;
 }
 
-.navSucursal {
-    width: 100%;
-    background-color: rgb(241, 240, 240);
-    padding: 10px 30px;
-    display: flex;
-}
-
 .contenedorImagenSucursales {
     width: 50%;
 }
@@ -27,19 +20,29 @@
     width: 150px;
 }
 
-.contenedorBotones,
-.contenedorBotones ul {
+.contenedorNavegacionSucursales {
+    width: 100%;
+    min-height: 90vh;
+    padding: 10vh 0;
+    display: flex;
+}
+
+.contenedorNavegacionSucursales .contenedorBotonesNav,
+.contenedorNavegacionSucursales .contenedorBotonesNav ul {
     display: flex;
     align-items: center;
-    justify-content: end;
-    gap: 40px;
-    width: 50%;
+    justify-content: center;
+    gap: 90px;
+    min-height: 100%;
+    padding: 0 20px;
+    flex-direction: column;
 }
-.contenedorBotones ul {
+
+.contenedorBotonesNav ul {
     width: 100%;
 }
 
-.contenedorBotones ul li {
+.contenedorBotonesNav ul li {
     list-style: none;
     text-align: center;
 }
@@ -48,9 +51,23 @@
     text-decoration: none;
     color: black;
     position: relative;
+
 }
 
-.contenedorBotones ul li .links::before {
+.navLink {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.navLink:hover {
+    background-color: rgb(179, 179, 179);
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+/* .contenedorBotonesNav ul li .links::before {
     content: "";
     height: 1px;
     width: 0;
@@ -60,9 +77,9 @@
     transition: .5s;
 }
 
-.contenedorBotones ul li .links:hover:before {
+.contenedorBotonesNav ul li .links:hover:before {
     width: 100%;
-}
+} */
 
 .tituloBienvenida {
     font-size: 40px;
@@ -127,4 +144,63 @@
 
 .contenedorSucursal:hover {
     background-color: rgb(201, 201, 201);
+}
+
+.contenedorTotalFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    min-height: 300px;
+}
+
+.division {
+    width: 30%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divisionUno {
+    align-items: start;
+}
+
+.divisionDos {
+    align-items: center;
+}
+
+.divisionTres {
+    align-items: end;
+}
+
+.TituloFooter {
+    padding: 10px 30px;
+}
+
+.TituloFooter h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.parrafoFooter {
+    height: 200px;
+    padding: 30px 30px;
+}
+
+.parrafoFooter p {
+    color: white;
+    font-size: 16px;
+}
+
+.mapaSuc {
+    width: 100%;
+    height: 250px;
+    padding: 20px 30px;
+}
+
+.mapaSuc iframe {
+    width: 100%;
+    height: 100%;
 }

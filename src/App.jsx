@@ -8,7 +8,6 @@ export const App = () => {
 
   return (
     <>
-      <Nav />
       <EleccionSucursal />
     </>
   );

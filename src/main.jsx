@@ -8,11 +8,13 @@ import { Contacto } from './opcionesSucursales/Contacto.jsx';
 import { Impresiones } from './opcionesSucursales/Impresiones.jsx';
 import { Sublimaciones } from './opcionesSucursales/Sublimaciones.jsx';
 import { ErrorComponent } from './ErrorComponent.jsx';
+import { Nav } from './Nav.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <DataProvider>
       <BrowserRouter>
+        <Nav />
         <Routes>
           <Route path='/' element={<App />}></Route>
           <Route path={'/*'} element={<ErrorComponent />} />
