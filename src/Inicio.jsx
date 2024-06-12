@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom';
 
 export const Inicio = () => {
   const { sucursalElegida } = useContext(DataContext)
+  const imageUrl = sucursalElegida.imagen;
+
 
   return (
     <div className='contenedorInicioSucursal'>
+      <div className="fondoDesenfocado" style={{ backgroundImage: `url(${imageUrl})` }}></div>
       <div className='contenedorCentral'>
 
         <div className='contenedorTitulo'>

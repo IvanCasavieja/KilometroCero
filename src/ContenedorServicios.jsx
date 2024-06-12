@@ -66,8 +66,8 @@ export const ContenedorServicios = () => {
                                 </div>
                             </div>
                             <div className='contenedorDerForm'>
-                                <label for="archivos">Subir hasta 500 fotos:</label>
-                                <input type="file" id="archivos" name="archivos[]" accept=".jpg,.jpeg,.png" multiple />
+                                <label for="archivos" id='archivoLabel'><span>Agrega tus fotos</span><i class="bi bi-file-plus"></i></label>
+                                <input type="file" id="archivos" name="archivos[]" accept=".jpg,.jpeg,.png"  multiple />
                             </div>
                             <div className='envio'>
                                 <button type="submit">Enviar</button>

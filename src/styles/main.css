@@ -10,7 +10,7 @@
 .contenedorNavegacionSucursales {
     position: fixed;
     width: 100%;
-    background-color: rgb(241, 240, 240);
+    background-color: #000000;
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
@@ -46,9 +46,8 @@
 
 .links {
     text-decoration: none;
-    color: black;
+    color: white;
     position: relative;
-
 }
 
 .navLink {
@@ -61,7 +60,7 @@
     height: 1px;
     width: 0;
     position: absolute;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     bottom: -5px;
     transition: .5s;
 }
@@ -74,17 +73,17 @@
  */
 .tituloBienvenida {
     font-size: 40px;
-    margin-top: 80px;
 }
 
 .seleccionarSuc {
     font-weight: 600;
     margin-top: 10px;
+    margin-bottom: 0 !important;
 }
 
 .containerSucursales {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,8 +91,7 @@
 }
 
 .contenedorCentrado {
-    width: 40%;
-    min-height: 700px;
+    width: 60%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -101,15 +99,13 @@
     justify-content: center;
     padding: 20px 0px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    background-color: rgb(241, 240, 240);
     margin-bottom: 30px;
 }
 
 .contenedorSucursal {
     background-color: white;
     width: 350px;
-    height: 220px;
+    height: 240px;
     display: flex;
     min-height: 200px;
     cursor: pointer;
@@ -131,7 +127,7 @@
 }
 
 .contenedorSucursal:hover::before {
-    background-color: rgba(41, 40, 38, 0.589);
+    background-color: rgba(240, 202, 192, 0.589);
 }
 
 .contenedorSucursal::after {
@@ -151,8 +147,7 @@
 
 .contenedorInicioSucursal {
     width: 100%;
-    min-height: 100vh;
-    background-color: red;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,7 +165,6 @@
 
     grid-template-columns: 2fr 2fr;
     gap: 10px;
-    min-height: 70vh;
     padding: 0px 40px 40px 40px;
     border-radius: 8px;
 }
@@ -188,7 +182,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
-    width: 800px;
+    width: 550px;
     display: table;
     margin: 0px auto;
 }
@@ -270,6 +264,13 @@
     background-color: white;
     transition: box-shadow 0.3s ease;
     border-radius: 8px;
+    transition: .5s;
+}
+
+.botonServicios:hover {
+    transform: scale(1.1);
+    background-color: #000000da;
+    color: white;
 }
 
 .botonServicios.activeBtn {
@@ -283,11 +284,13 @@
     background-color: white;
     width: 100%;
     height: 100%;
+    max-width: 1600px;
 }
 
 .contenedorInfo {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .formularioFotos {
@@ -299,7 +302,8 @@
         'envio envio ';
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 80px auto auto 80px;
-    width: 100%;
+    width: 80%;
+    max-width: 1200px;
 }
 
 .contenedorTituloForm {
@@ -355,13 +359,57 @@
 
 .contenedorDerForm {
     grid-area: der;
-    background-color: rgb(255, 0, 0);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#archivoLabel {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: .5s;
+    flex-direction: column;
+}
+
+#archivoLabel span {
+    transition: .3s;
+}
+
+#archivoLabel:hover span {
+    color: rgb(255, 0, 0);
+}
+
+.bi-file-plus {
+    font-size: 180px;
+}
+
+#archivos {
+    display: none;
 }
 
 .envio {
     grid-area: envio;
-    background-color: rgb(128, 128, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.envio button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    transition: .5s;
+}
+
+.envio button:hover {
+    background-color: black;
+    color: white;
 }
 
 .contenedorTotalFooter {

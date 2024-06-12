@@ -29,6 +29,7 @@
         "nombre": "Tres Cruces",
         "ruta": "tresCruces",
         "ubi": "1° piso del shopping Montevideo",
+        "imagen": "/tres-cruces.jpg",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -103,6 +104,7 @@
         "nombre": "Punta Carretas Shopping",
         "ruta": "puntaCarretasShopping",
         "ubi": "1° piso del shopping Montevideo",
+        "imagen": "/punta-carretas.jpg",
         "telefonos": [
             {
                 "tipo": "principal",
