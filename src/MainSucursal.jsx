@@ -4,12 +4,13 @@ import { NavSucursales } from './NavSucursales';
 import { Footer } from './Footer';
 import { Inicio } from './Inicio';
 import { App } from './App';
+import { Navigate } from 'react-router-dom';
 
 export const MainSucursal = () => {
     const { sucursalElegida } = useContext(DataContext)
 
     if (!sucursalElegida) {
-        return <App />;
+        return <Navigate to="/" />;
     }
 
     console.log(sucursalElegida)
