@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { App } from './App.jsx'
 import { MainSucursal } from './MainSucursal.jsx';
 import { Servicios } from './Servicios.jsx';
+import "./Firebase/config.js"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>

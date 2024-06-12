@@ -58,7 +58,7 @@ export const ContenedorServicios = () => {
                                 </div>
                                 <div className='form-group'>
                                     <label htmlFor="numeroDeTelefono">Número de teléfono</label>
-                                    <input type="tel" id='numeroDeTelefono' name="telefono" required />
+                                    <input type="number" id='numeroDeTelefono' name="telefono" required />
                                 </div>
                                 <div className='form-group'>
                                     <label htmlFor="correoElectronico">Correo electrónico</label>
