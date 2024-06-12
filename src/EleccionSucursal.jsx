@@ -22,8 +22,8 @@ export const EleccionSucursal = () => {
                 <p className='seleccionarSuc'>Seleccione su sucursal ↓</p>
                 <div className='contenedorCentrado'>
                     {sucursales.map((sucursal) => (
-                        <Link onClick={() => informacionSucursalElegida(sucursal)} className='contenedorSucursal' key={sucursal.id} to={`/sucursal/${sucursal.ruta}`} style={{ '--sucursal-content': `"${sucursal.nombre}"` }} >
-                            <h1>{sucursal.nombre}</h1>
+                        <Link onClick={() => informacionSucursalElegida(sucursal)} className='contenedorSucursal' key={sucursal.id} to={`/sucursal/${sucursal.ruta}`} style={{ '--sucursal-ubicacion': `"${sucursal.ubi}"`, '--sucursal-nombre': `"${sucursal.nombre}"`}} >
+                            <img className='imagenSucursales' src={sucursal.imagen} alt={sucursal.nombre} />
                         </Link>
                     ))}
                 </div>

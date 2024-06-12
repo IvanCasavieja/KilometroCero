@@ -3,12 +3,8 @@
         "id": 1,
         "nombre": "Plaza Cagancha",
         "ruta": "plazaCagancha",
-        "direccion": {
-            "calle": "Avenida Sur",
-            "numero": 789,
-            "ciudad": "Ciudad Sur",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
+        "imagen": "/plaza_cagancha_fachada.jpg",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -32,12 +28,7 @@
         "id": 2,
         "nombre": "Tres Cruces",
         "ruta": "tresCruces",
-        "direccion": {
-            "calle": "Av. Central",
-            "numero": 123,
-            "ciudad": "Ciudad Capital",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -61,12 +52,8 @@
         "id": 3,
         "nombre": "Nuevo Centro",
         "ruta": "nuevoCentro",
-        "direccion": {
-            "calle": "Calle Norte",
-            "numero": 456,
-            "ciudad": "Ciudad Norte",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
+        "imagen": "/nuevo_centro_fachada.jpg",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -90,12 +77,8 @@
         "id": 4,
         "nombre": "Montevideo Shopping",
         "ruta": "montevideoShopping",
-        "direccion": {
-            "calle": "Avenida Sur",
-            "numero": 789,
-            "ciudad": "Ciudad Sur",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
+        "imagen": "/montevideo_shopping_fachada.jpg",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -119,12 +102,7 @@
         "id": 5,
         "nombre": "Punta Carretas Shopping",
         "ruta": "puntaCarretasShopping",
-        "direccion": {
-            "calle": "Avenida Sur",
-            "numero": 789,
-            "ciudad": "Ciudad Sur",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
         "telefonos": [
             {
                 "tipo": "principal",
@@ -148,12 +126,7 @@
         "id": 6,
         "nombre": "Portones Shopping",
         "ruta": "portonesShopping",
-        "direccion": {
-            "calle": "Avenida Sur",
-            "numero": 789,
-            "ciudad": "Ciudad Sur",
-            "pais": "País Ejemplo"
-        },
+        "ubi": "1° piso del shopping Montevideo",
         "telefonos": [
             {
                 "tipo": "principal",

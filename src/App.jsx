@@ -1,13 +1,14 @@
 import React from 'react';
 import "./styles/main.css"
+import { Nav } from './Nav.jsx';
 import { EleccionSucursal } from './EleccionSucursal';
-import { Nav } from './Nav';
 
 export const App = () => {
 
 
   return (
     <>
+        <Nav />
       <EleccionSucursal />
     </>
   );
